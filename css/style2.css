@@ -1,0 +1,49 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit
+}
+
+.contain
+{
+	width: 1280px;
+	height: 720px;
+}
+
+.read
+{	
+	top: 75%;
+	left: 40%;
+	position: absolute;
+	width: 322px;
+	height: 115px;
+	color: #fff;
+	transition: 0.3s;
+
+}
+
+.read:hover
+{
+	transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+.bg-story
+{	
+    left: 620px;
+	position: absolute;
+	width: 322px;
+	height: 115px;
+	color: #fff;
+	transition: 0.3s;
+
+}
+
+.bg-story:hover
+{
+	transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
